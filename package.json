@@ -5,12 +5,12 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Trachifab/angular2-test-website.git"
+    "url": "git+https://github.com/Trachifab/angular2-bootstrap4-boilerplate.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Trachifab/angular2-test-website/issues"
+    "url": "https://github.com/Trachifab/angular2-bootstrap4-boilerplate/issues"
   },
   "scripts": {
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
@@ -39,5 +39,5 @@
     "lite-server": "^2.2.2",
     "typescript": "~2.0.10"
   },
-  "homepage": "https://github.com/Trachifab/angular2-test-website#readme"
+  "homepage": "https://github.com/Trachifab/angular2-bootstrap4-boilerplate#readme"
 }
