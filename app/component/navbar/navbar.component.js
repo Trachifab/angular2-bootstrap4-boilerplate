@@ -11,7 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var NavbarComponent = (function () {
     function NavbarComponent() {
-        this.branding = "Angular2 Test Website";
+        this.branding = "Angular2 Boilerplate";
     }
     NavbarComponent = __decorate([
         core_1.Component({

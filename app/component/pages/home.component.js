@@ -9,22 +9,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var JumbotronComponent = (function () {
-    function JumbotronComponent() {
-        this.jbtHeading = "Jumbotron part";
-        this.jbtText = "This jumbotron will be displayed in each pages.";
-        this.jbtBtnText = "Go to about page";
-        this.jbtBtnUrl = "/about";
+var HomeComponent = (function () {
+    function HomeComponent() {
     }
-    JumbotronComponent = __decorate([
+    HomeComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
-            selector: 'jumbotron',
-            templateUrl: "jumbotron.component.html"
+            selector: 'home',
+            templateUrl: "home.component.html"
         }), 
         __metadata('design:paramtypes', [])
-    ], JumbotronComponent);
-    return JumbotronComponent;
+    ], HomeComponent);
+    return HomeComponent;
 }());
-exports.JumbotronComponent = JumbotronComponent;
-//# sourceMappingURL=jumbotron.component.js.map
+exports.HomeComponent = HomeComponent;
+//# sourceMappingURL=home.component.js.map

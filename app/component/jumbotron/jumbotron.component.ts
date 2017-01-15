@@ -12,9 +12,9 @@ export class JumbotronComponent {
     private jbtBtnUrl:string;
 
     constructor(){
-        this.jbtHeading = "Hello world";
-        this.jbtText = "This is some text";
-        this.jbtBtnText = "Read more";
+        this.jbtHeading = "Jumbotron part";
+        this.jbtText = "This jumbotron will be displayed in each pages.";
+        this.jbtBtnText = "Go to about page";
         this.jbtBtnUrl = "/about";
     }
 
